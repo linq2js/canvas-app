@@ -1,0 +1,36 @@
+{
+  "name": "canvas-app",
+  "version": "1.0.0",
+  "description": "An lib to create application which is based on HTML5 Canvas",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linq2js/canvas-app.git"
+  },
+  "keywords": [
+    "fabricjs",
+    "drawing",
+    "canvas",
+    "functional",
+    "react"
+  ],
+  "author": "linq2js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linq2js/rxa/issues"
+  },
+  "homepage": "https://github.com/linq2js/canvas-app#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "fabric": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0"
+  }
+}
